@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
-  width: 320px;
+  max-width: 360px;
   box-sizing: border-box;
   background-color: #faf9f6;
+  font-family: "Roboto", "sans-serif";
 }
 
 header {
@@ -14,9 +17,10 @@ header {
 header h1 {
   font-size: 40px;
   color: midnightblue;
+  font-family: "Playpen Sans", "sans-serif";
 }
 header button {
-  width: 100px;
+  width: 150px;
   border-radius: 5px;
   background-color: white;
   color: midnightblue;

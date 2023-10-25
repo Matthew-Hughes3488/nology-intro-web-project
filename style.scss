@@ -3,9 +3,10 @@
 *{
     margin: 0;
     padding: 0;
-    width: 320px;
+    max-width: 360px;
     box-sizing: border-box;
     background-color: $background-color;
+    font-family: $font-main;
 }
 
 header{
@@ -16,10 +17,11 @@ header{
     h1{
         font-size: 40px;
         color: midnightblue;
+        font-family: $font-title;
     }
 
     button{
-        width: 100px;
+        width: 150px;
         border-radius: 5px;
         background-color: white;
         color: midnightblue;
