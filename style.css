@@ -39,8 +39,27 @@ main #app-overview {
 main #app-overview * {
   margin: 10px;
 }
-main #app-overview button {
+main #info h4 {
+  margin: 15px;
+}
+main #info .app-info {
+  display: flex;
+  align-items: center;
+}
+main #info button {
+  margin: 15px;
+}
+main button {
   width: 150px;
   height: 50px;
   border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer a {
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */
