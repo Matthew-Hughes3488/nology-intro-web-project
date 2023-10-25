@@ -16,49 +16,42 @@ header {
 }
 header h1 {
   font-size: 40px;
-  color: midnightblue;
   font-family: "Playpen Sans", "sans-serif";
 }
 header button {
   width: 125px;
   border-radius: 5px;
   background-color: white;
-  color: midnightblue;
   font-size: 20px;
 }
 
 main {
   text-align: center;
-}
-main #app-overview {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-main #app-overview * {
-  margin: 10px;
-}
-main #info h4 {
+main * {
   margin: 15px;
 }
-main #info .app-info {
+main .app-info {
   display: flex;
   align-items: center;
-}
-main #info button {
-  margin: 15px;
+  margin: 0;
 }
 main button {
   width: 150px;
   height: 50px;
   border-radius: 5px;
+  margin: 10px;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10%;
 }
 footer a {
   margin: 5px;
