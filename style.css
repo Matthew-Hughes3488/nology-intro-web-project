@@ -1,8 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  width: 300px;
+  width: 320px;
   box-sizing: border-box;
+  background-color: #faf9f6;
 }
 
 header {
