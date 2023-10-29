@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;400&family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,11 +16,13 @@ header {
 header h1 {
   font-size: 40px;
   font-family: "Playpen Sans", "sans-serif";
+  color: #153067;
 }
 header button {
   width: 125px;
   border-radius: 5px;
   background-color: white;
+  color: #153067;
   font-size: 20px;
 }
 
@@ -34,9 +35,7 @@ main {
 }
 main * {
   margin: 15px;
-}
-main b {
-  margin: 0;
+  color: #153067;
 }
 main .app-info {
   display: flex;
@@ -50,9 +49,18 @@ main button {
   border: none;
   border-radius: 5px;
   margin: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   background-color: #002244;
   color: white;
+}
+main b {
+  margin: 0;
+}
+main #sign-up-button {
+  margin-bottom: 50px;
+}
+main .light-color-text {
+  color: #00BFFF;
 }
 
 footer {
@@ -62,7 +70,7 @@ footer {
   background-color: #F0E68C;
 }
 footer a {
-  margin: 5px;
+  margin: 10px;
   background-color: #F0E68C;
 }
 footer a:link {

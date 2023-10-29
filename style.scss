@@ -17,12 +17,14 @@ header {
   h1 {
     font-size: 40px;
     font-family: $font-title;
+    color: $font-color-dark-blue;
   }
 
   button {
     width: 125px;
     border-radius: 5px;
     background-color: $color-white;
+    color: $font-color-dark-blue;
     font-size: 20px;
   }
 }
@@ -36,18 +38,16 @@ main {
 
   * {
     margin: 15px;
+    color: $font-color-dark-blue;
   }
 
-  b {
-    margin: 0;
-  }
-
+  
   .app-info {
     display: flex;
     align-items: center;
     margin: 0;
   }
-
+  
   button {
     font-size: 20px;
     width: 200px;
@@ -55,9 +55,21 @@ main {
     border: none;
     border-radius: 5px;
     margin: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     background-color: $background-color-button;
     color: $color-white;
+  }
+  
+  b {
+    margin: 0;
+  }
+
+  #sign-up-button{
+    margin-bottom: 50px;
+  }
+
+  .light-color-text{
+    color: $font-color-light-blue;
   }
 }
 
@@ -68,7 +80,7 @@ footer {
   background-color: $background-color-footer;
 
   a {
-    margin: 5px;
+    margin: 10px;
     background-color: $background-color-footer;
   }
   a:link {
