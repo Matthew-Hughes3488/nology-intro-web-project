@@ -35,24 +35,39 @@ main {
 main * {
   margin: 15px;
 }
+main b {
+  margin: 0;
+}
 main .app-info {
   display: flex;
   align-items: center;
   margin: 0;
 }
 main button {
-  width: 150px;
+  font-size: 20px;
+  width: 200px;
   height: 50px;
+  border: none;
   border-radius: 5px;
   margin: 10px;
+  margin-bottom: 50px;
+  background-color: #002244;
+  color: white;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10%;
+  background-color: #F0E68C;
 }
 footer a {
   margin: 5px;
+  background-color: #F0E68C;
+}
+footer a:link {
+  text-decoration: none;
+}
+footer a:visited {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
