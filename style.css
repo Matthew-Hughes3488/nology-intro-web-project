@@ -4,23 +4,34 @@
   padding: 0;
   max-width: 360px;
   box-sizing: border-box;
-  background-color: #faf9f6;
+  background-color: white;
   font-family: "Roboto", "sans-serif";
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 30px;
 }
-header h1 {
-  font-size: 40px;
+header .title-and-image {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header .title-and-image img {
+  max-width: 75px;
+  height: auto;
+}
+header .title-and-image h1 {
+  font-size: 30px;
   font-family: "Playpen Sans", "sans-serif";
   color: #153067;
 }
 header button {
-  width: 125px;
+  width: 75px;
   border-radius: 5px;
+  border: none;
   background-color: white;
   color: #153067;
   font-size: 20px;
