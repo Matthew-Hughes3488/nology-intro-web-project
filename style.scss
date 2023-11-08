@@ -19,6 +19,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    font-family: $font-title;
 
     img{
       max-width: 75px;
@@ -62,6 +63,15 @@ main {
     margin: 0;
   }
   
+  .text{
+    margin: 0;
+  }
+
+  .thin-text{
+    margin: 0;
+    font-weight: 100;
+  }
+
   button {
     font-size: 20px;
     width: 200px;
@@ -73,10 +83,7 @@ main {
     background-color: $background-color-button;
     color: $color-white;
   }
-  
-  b {
-    margin: 0;
-  }
+
 
   #sign-up-button{
     margin-bottom: 50px;
