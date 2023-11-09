@@ -31,13 +31,15 @@ header {
       font-family: $font-title;
       color: $font-color-dark-blue;
     }
+
   }
-
-
+  
   button {
-    width: 75px;
+    width: 100px;
+    height: 50px;
+    border-color: $color-black;
+    border-width: 1px;
     border-radius: 5px;
-    border: none;
     background-color: $color-white;
     color: $font-color-dark-blue;
     font-size: 20px;
